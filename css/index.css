@@ -2,3 +2,22 @@ nav{
     background-color: darkgreen;
     text-align: center;
 }
+.waves-effect{
+    background:  green; 
+    width: 100%;
+}
+.container{
+    width: 50%;
+}
+.row .col.m6 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+.card-action{
+    margin-left: auto;
+    left: auto;
+    right: auto;
+
+}
