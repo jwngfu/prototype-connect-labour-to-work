@@ -1,23 +1,57 @@
 nav{
-    background-color: darkgreen;
-    text-align: center;
+    background-color: #02a9d1;
+    /* text-align: center; */
+    width:100%;
+    height: 70px;
+}
+.brand-logo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.sidenav{
+    /* top: 60px; */
+    width: 300px;
 }
 .waves-effect{
-    background:  green; 
+    background: #02a9d1; 
     width: 100%;
 }
-.container{
-    width: 50%;
-}
+
 .row .col.m6 {
     width: 100%;
     margin-left: auto;
     left: auto;
     right: auto;
 }
-.card-action{
-    margin-left: auto;
-    left: auto;
-    right: auto;
-
+header, main, footer {
+    padding-left: 300px;
+}
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+#content{
+    padding-left: 320px;
+    padding-top: 10px;
+    color: black;
+    overflow: auto;
+    height: 530px; 
+}
+/* .content-padding{
+    padding-left: 20px;
+}
+.content-padding h3{
+    padding-left: 20px;
+} */
+#location{
+    font: 15px arial, sans-serif;
+}
+     
+.page-footer{
+    background: #02a9d1;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
 }
