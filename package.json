@@ -1,0 +1,21 @@
+{
+  "name": "prototype-connect-labour-to-work",
+  "version": "1.0.0",
+  "description": "Prototype for an app based on \"Connect Job Seeking Labour to Work Available Nearby\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwngfu/prototype-connect-labour-to-work.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwngfu/prototype-connect-labour-to-work/issues"
+  },
+  "homepage": "https://github.com/jwngfu/prototype-connect-labour-to-work#readme"
+}
