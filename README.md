@@ -2,6 +2,10 @@
 Prototype for an app based on "Connect Job Seeking Labour to Work Available Nearby"
 <br>by Jwngfu Brahma & Rhitabrat Pokhrel.
 
+<h2>Running the app hosted on Heroku</h2>
+Simply visit:
+<pre><a href="https://labourworkprototype.herokuapp.com/">https://labourworkprototype.herokuapp.com/</a></pre>
+
 <h2>Running it Locally</h2>
 Make sure you have the following dependencies installed in your system:
 <pre>
