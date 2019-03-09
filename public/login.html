@@ -16,7 +16,7 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo">Labour At Work</a>
+            <a href="index.html" class="brand-logo">LabourWork</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <!-- <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
@@ -29,19 +29,20 @@
             <div class="col s12 m6">
                 <div class="card darken-1" id="login-card">
                     <div class="card-content">
-                        <span class="card-title" style="text-align:center;">Login - Job Seeker</span>
+                        <form action="/hello" method="GET">
+                        <span class="card-title" style="text-align:center;">Login</span>
                         <div class="card-action">
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                                    <label for="first_name">Username/Phone Number</label>
+                                    <input id="username" type="text" class="validate">
+                                    <label for="username">username</label>
                                 </div>
                                 <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                                    <label for="first_name">Password</label>
+                                    <input id="password" type="password" class="validate">
+                                    <label for="password">password</label>
                                 </div>
                                 <div class="col s12">
-                                    <a class="waves-effect waves-light btn" href="jobseekerhome.html">Login</a>
+                                <button type="submit" class="waves-effect waves-light btn">Login</button>
                                 </div>
 
                             </div>
@@ -51,6 +52,7 @@
                                 </div>
                             </div>
                         </div>
+                        </form>
                     </div>
                 </div>
 
