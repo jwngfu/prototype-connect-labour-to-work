@@ -1,0 +1,10 @@
+{
+    "pg":{
+        
+        "user": "",
+        "host": "",
+        "database": "",
+        "password": "",
+        "port" : ""
+    }
+}
