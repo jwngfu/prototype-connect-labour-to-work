@@ -16,7 +16,7 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo">Labour At Work</a>
+            <a href="index.html" class="brand-logo">LabourWork</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <!-- <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
@@ -30,36 +30,49 @@
             <div class="col s12 m6">
                 <div class="card darken-1" id="login-card">
                     <div class="card-content">
-                        <span class="card-title" style="text-align:center;">Register - Job Seeker</span>
+                        <span class="card-title" style="text-align:center;">Fill Details</span>
                         <div class="card-action">
                             <div class="row">
+                                <form action="register" method="POST">
+
+
                                 <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="name" type="text" class="validate">
-                                    <label for="first_name">Name</label>
+
+
+                                    <label>Account Type</label>
+
+                                    <input id="userType" name="userType" type="radio" value="0" checked>Job Seeker<br>
+                                    <input id="userType" name="userType" type="radio" value="1">Job Provider
+                                    
+
+                                </div>
+                                
+                                <div class="input-field col s12">
+                                    <input placeholder="Full Name" id="name" name="name" type="text" class="validate">
+                                    <label for="name">Name</label>
+                                </div>
+                                
+                                
+                                <div class="input-field col s12">
+                                    <input placeholder="Enter a strong password!" id="password" name="password" type="password" class="validate">
+                                    <label for="password">Password</label>
                                 </div>
                                 <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="user_name" type="text" class="validate">
-                                    <label for="first_name">Username</label>
+                                    <input placeholder="Present Address" id="address" name="address" type="text" class="validate">
+                                    <label for="address">Address</label>
                                 </div>
                                 <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="password" type="password" class="validate">
-                                    <label for="first_name">Password</label>
+                                    <input placeholder="Work Mobile Number" id="phoneNumber" name="phoneNumber" type="number" class="validate">
+                                    <label for="phoneNumber">Phone Number</label>
                                 </div>
                                 <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="address" type="text" class="validate">
-                                    <label for="first_name">Address</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="phone_no" type="number" class="validate">
-                                    <label for="first_name">Phone Number</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="adhar_no" type="text" class="validate">
-                                    <label for="first_name">Adhar Card Number</label>
+                                    <input placeholder="xxxx-xxxx-xxxx-xxxx" id="adharNumber" name="adharNumber" type="number" class="validate">
+                                    <label for="adharNumber">Adhar Card Number</label>
                                 </div>
                                 <div class="col s12">
-                                    <a class="waves-effect waves-light btn">Register</a>
+                                    <button type="submit" class="waves-effect waves-light btn">Register</button>
                                 </div>
+                                </form>
                             </div>
                         </div>
                     </div>

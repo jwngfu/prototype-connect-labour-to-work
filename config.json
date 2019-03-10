@@ -1,10 +1,10 @@
 {
     "pg":{
         
-        "user": "",
-        "host": "",
-        "database": "",
-        "password": "",
-        "port" : ""
+        "user": "postgres",
+        "host": "127.0.0.1",
+        "database": "labourwork",
+        "password": "password",
+        "port" : "5432"
     }
 }
